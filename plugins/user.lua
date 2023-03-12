@@ -3,6 +3,8 @@ return {
   -- Add plugins, the lazy syntax
   "andweeb/presence.nvim",
   "zbirenbaum/copilot.lua",
+  'wakatime/vim-wakatime'
+
   -- {
   --   "ray-x/lsp_signature.nvim",
   --   event = "BufRead",
