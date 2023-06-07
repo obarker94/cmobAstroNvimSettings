@@ -63,16 +63,6 @@ return {
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
-    -- Set up Copilot Keybinds
-    local copilot_options = { silent = true, expr = true, script = true }
-    vim.api.nvim_set_keymap("i", "<C-]>", "copilot#Accept(<Tab>)", copilot_options)
-
-    -- navigate to previous buffer with shift + h
-    vim.api.nvim_set_keymap("n", "<S-h>", "<C-^>", { noremap = true })
-
-    -- navigate to next buffer with shift + l
-    vim.api.nvim_set_keymap("n", "<S-l>", "<C-^>", { noremap = true })
-
     -- Set up custom filetypes
     -- vim.filetype.add {
     --   extension = {

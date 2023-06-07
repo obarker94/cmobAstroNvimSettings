@@ -6,7 +6,7 @@ return {
 
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.everforest" },
-  { import = "astrocommunity.completion.copilot-lua-cmp" },
-  { import = "astrocommunity.completion.copilot-lua" },
+  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
+  -- import my custom copilot lua from plugins/copilot.lua
   { import = "astrocommunity.scrolling.mini-animate" },
 }
