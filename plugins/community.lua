@@ -9,4 +9,6 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   -- import my custom copilot lua from plugins/copilot.lua
   { import = "astrocommunity.scrolling.mini-animate" },
+  { import = "astrocommunity.editing-support.zen-mode-nvim" },
+  { import = "astrocommunity.motion.vim-matchup" }
 }
