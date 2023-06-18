@@ -59,10 +59,14 @@ return {
       },
     },
   },
+
+  -- This function is run last and is a good place to configuring
   -- This function is run last and is a good place to configuring
   -- augroups/autocommands and custom filetypes also this just pure lua so
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
+    -- push ctrl + space and open the autocmplete dropdown menu
+
     -- Set up custom filetypes
     -- vim.filetype.add {
     --   extension = {
