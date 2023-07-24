@@ -16,6 +16,8 @@ return {
       --   ["remote3"] = "github_user", -- GitHub user assume AstroNvim fork
     },
   },
+
+
   -- Set colorscheme to use
   colorscheme = "everforest",
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
@@ -38,6 +40,7 @@ return {
       },
       disabled = { -- disable formatting capabilities for the listed language servers
         -- "sumneko_lua",
+      "tsserver"
       },
       timeout_ms = 1000, -- default format timeout
       -- filter = function(client) -- fully override the default formatting function
@@ -66,6 +69,7 @@ return {
   -- anything that doesn't fit in the normal config locations above can go here
   polish = function()
     -- push ctrl + space and open the autocmplete dropdown menu
+    
 
     -- Set up custom filetypes
     -- vim.filetype.add {
